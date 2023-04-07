@@ -31,8 +31,7 @@ class Funcionario:
             self._salario -= decrescimo
 
     def _eh_socio(self):
-        sobrenomes = ['Bragança', 'Windsor', 'Bourbon',
-                      'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
+        sobrenomes = ['Bragança', 'Windsor', 'Bourbon', 'Yamato', 'Al Saud', 'Khan', 'Tudor', 'Ptolomeu']
         return ((self.salario >= 10000) and (self.sobrenome() in sobrenomes))
 
     def calcular_bonus(self):
